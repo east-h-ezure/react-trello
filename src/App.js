@@ -10,7 +10,14 @@ function App() {
       name: 'hanako',
       age: 23
     }
-  ]
+  ];
+  const words = ['apple', 'lemon', 'grapefruit', 'kiwi', 'peach'];
+  const result = words.filter((word) => word.length < 6);
+  console.log(result);
+  //splice aplice(start, deletecount, 'items)
+  const months = ['january', 'february', 'april', 'may'];
+  const result2 = months.splice(1, 1, 'march');
+  console.log(result2);
   return (
     <div>
       <h1>Map Plactice</h1>

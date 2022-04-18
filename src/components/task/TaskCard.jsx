@@ -1,9 +1,19 @@
 import React from 'react'
+import TaskCardDeleteButton from './button/TaskCardDeleteButton';
+import TaskCardTitle from './TaskCardTitle';
+import TaskAddInput from './input/TaskAddInput';
+import Tasks from './Tasks';
 
-const TaskCard = () => {
+const TaskCard
+ = () => {
   return (
-    <div>TaskCard</div>
+    <div className='taskCard'>
+      <TaskCardTitle />
+      <TaskCardDeleteButton />
+      <TaskAddInput />
+      <Tasks />
+    </div>
   )
 }
 
-export default TaskCard
+export default TaskCard;

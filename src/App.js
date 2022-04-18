@@ -18,6 +18,7 @@ function App() {
   const months = ['january', 'february', 'april', 'may'];
   const result2 = months.splice(1, 1, 'march');
   console.log(result2);
+
   return (
     <div>
       <h1>Map Plactice</h1>
@@ -32,6 +33,8 @@ function App() {
           <div>{data.age}</div>
         </div>
       ))}
+      <div>三項演算子</div>
+      {false ? <div>true</div> : <div>false</div>}
     </div>
   );
 }

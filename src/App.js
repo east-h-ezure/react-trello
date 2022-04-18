@@ -19,8 +19,6 @@ function App() {
   const result2 = months.splice(1, 1, 'march');
   console.log(result2);
 
-  const 
-
   return (
     <div>
       <h1>Map Plactice</h1>

@@ -18,3 +18,10 @@ header {
   margin-bottom: 50px;
   background-color: rgb(102, 94, 74);
 }
+
+.app {
+  background: url(../src/assets/nightSky.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
